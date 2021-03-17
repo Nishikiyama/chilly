@@ -7,7 +7,7 @@ class mod(commands.Cog):
         self.bot = bot
     @commands.Cog.listener()
     async def on_message(self, msg):
-        filtered_words = ["nigga", "niger", "niga", "nigger"]
+        filtered_words = ["nigga", "niger", "niga", "nigger", "niqqer", "fagger", "faggot", "faqqot", "niqqa", "nig", "niq"]
         author = msg.author.mention
         for word in filtered_words:
             if word in msg.content:
